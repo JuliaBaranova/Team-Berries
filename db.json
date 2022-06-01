@@ -1,0 +1,19 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "Dress",
+      "image": "https://stylecaster.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-24-at-2.50.17-PM.png?w=348"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

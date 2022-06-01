@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.6.0"
+  },
+  "name": "team-berries",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start:json" : "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaBaranova/Team-Berries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaBaranova/Team-Berries/issues"
+  },
+  "homepage": "https://github.com/JuliaBaranova/Team-Berries#readme"
+}
