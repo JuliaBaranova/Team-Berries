@@ -1,2 +1,8 @@
 @import url(./node_modules/normalize.css/normalize.css);
 
+.carousel{
+    margin: 10px 15px;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
