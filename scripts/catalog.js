@@ -1,7 +1,7 @@
 const Catalog = [
     {
         id: 'el1',
-        name: 'Galverini /Платье' ,
+        name: 'Galverini / Платье' ,
         image: 'https://images.wbstatic.net/big/new/76230000/76235884-1.jpg' ,
         price: 151.85,
         selector: 'woman',
@@ -9,20 +9,20 @@ const Catalog = [
     {
         id: 'el2',
         name: 'GRINKOVSKAYA brand / Платье' ,
-        image: 'https://images.wbstatic.net/big/new/33140000/33140924-3.jpg' ,
-        price: 243.12,
+        image: 'https://images.wbstatic.net/c516x688/new/25820000/25822755-1.jpg' ,
+        price: 157.63,
         selector: 'woman',
     },
     {
         id: 'el3',
-        name: 'Mimis /Платье' ,
+        name: 'Mimis / Платье' ,
         image: 'https://images.wbstatic.net/big/new/38450000/38456994-1.jpg' ,
         price: 210,
         selector: 'woman',
     },
     {
         id: 'el4',
-        name: 'Weeds&lovers /Платье' ,
+        name: 'Weeds&lovers / Платье' ,
         image: 'https://images.wbstatic.net/big/new/17800000/17806943-1.jpg' ,
         price: 175,
         selector: 'woman',
@@ -128,8 +128,8 @@ const Catalog = [
       {
        id: 'el19',
        name: 'Lacoste / Футболка' ,
-       image: 'https://images.wbstatic.net/c516x688/new/28760000/28762805-3.jpg' ,
-       price: 78.38,
+       image: 'https://images.wbstatic.net/c516x688/new/58240000/58248938-4.jpg' ,
+       price: 178.38,
        selector: 'woman'
       },
       {
@@ -226,7 +226,7 @@ const Catalog = [
       {
        id: 'el33',
        name: 'MANGO / Сумка' ,
-       image: 'https://images.wbstatic.net/c516x688/new/74990000/74991460-1.jpg' ,
+       image: 'https://images.wbstatic.net/c516x688/new/64000000/64001325-1.jpg' ,
        price: 167.52,
        selector: 'accessories'
       },
@@ -244,7 +244,12 @@ const Catalog = [
        price: 94.18,
        selector: 'woman'
       },   
-    
+      { id: 'el36',
+       name: 'LOVE REPUBLIC / Платье' ,
+       image: 'https://images.wbstatic.net/c516x688/new/83830000/83830594-1.jpg' ,
+       price: 281.14,
+       selector: 'woman'
+      }
 
 
 
