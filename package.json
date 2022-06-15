@@ -10,6 +10,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "start": "parcel ./src/index.html",
     "start:json" : "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
