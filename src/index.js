@@ -1,13 +1,19 @@
+import { getCatalog } from "./catalog";
+import { Products, productsPage, renderCatalog } from "./catalog";
+
+
 let catalog
 
-const getCatalog = async function fetchCatalogJSON () {
-    const responce = await fetch('http://localhost:3000/catalog');
-    console.log(responce)
-
+if (!catalog) {
+    getCatalog();
 }
-getCatalog()
-const KEY_PRODUCTS = document.getElementById('products')
-const KEY_HEADER = document.getElementById('header')
-const KEY_SHOPPING = document.getElementById('shopping') 
+
+
+const productsPage = new Products();
+
+renderCatalog(catalog)
+// const KEY_PRODUCTS = document.getElementById('products')
+// // const KEY_HEADER = document.getElementById('header')
+// // const KEY_SHOPPING = document.getElementById('shopping')
 
 

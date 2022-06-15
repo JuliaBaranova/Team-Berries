@@ -12,6 +12,7 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "start:json" : "json-server --watch db.json",
+    "start_full_app" : "concurrently \"npm start\" \"npm run start:json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
