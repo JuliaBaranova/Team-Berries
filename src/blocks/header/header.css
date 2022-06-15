@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+body {
+	margin: 0;
+}
+
+.header {
+	background: linear-gradient(to right, #cb11ab 0, #481173 100%) no-repeat;
+	padding: 16px 44px;
+	position: relative;
+	padding: 15px 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.header__info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, .6);
+	border-color: initial;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	min-height: 20px;
+}
+
+.header__country {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.header__city {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.header__main {
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__inputWrapper {
+	color: rgba(255, 255, 255, .5);
+	width: 100%;
+	padding: 16px 44px;
+	margin: 15px 0;
+	border-radius: 56px;
+	background: rgba(255, 255, 255, .2);
+	cursor: pointer;
+	display: flex;
+	gap: 15px;
+	justify-content: space-between;
+	align-items: center;
+	transition: background .3s ease 0s;
+}
+
+.header__input {
+	color: rgba(255, 255, 255, 0.838);
+	width: 100%;
+	background: none;
+	outline: none;
+	border-style: none;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, .6);
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.header__inputWrapper:hover {
+	background: rgba(255, 255, 255, 0.43);
+}
+
+.header__cart {
+	color: rgba(255, 255, 255, .6);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	transition: color .3s ease 0s;
+}
+
+.header__cart:hover {
+	color: #fff;
+}
