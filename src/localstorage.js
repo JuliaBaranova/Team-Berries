@@ -28,4 +28,3 @@ export class LocalStorage {
     }
 };
 export const localstorage = new LocalStorage();
-export { putProducts, getProducts}
