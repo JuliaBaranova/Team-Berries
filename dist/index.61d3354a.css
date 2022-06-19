@@ -209,7 +209,7 @@ template, [hidden] {
   line-height: 20px;
 }
 
-.products-item__btn:active {
+.products-item__btn .active {
   color: #fff;
   background-color: #b30f97;
   border-color: #b30f97;

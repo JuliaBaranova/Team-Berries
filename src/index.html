@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,25 @@
     <title>Wildberries</title>
     <link rel="icon" href="./img/WB.jpg" type="img/png">
 </head>
+
 <body>
     <div id="header"></div>
     <div id="products"></div>
     <div id="shopping"></div>
-    
-    <script type="module" src="./index.js"></script>   
+
+    <ul class="products-item">
+
+    </ul>
+    <template id="template">
+        <li class="products-item__element">
+            <img class="products-item__img">
+            <span class="products-item__price"></span>
+            <span class="products-item__name"></span>
+            <button class="products-item__btn">Добавить в корзину</button>
+        </li>
+    </template>
+
+    <script type="module" src="./index.js"></script>
 </body>
+
 </html>
