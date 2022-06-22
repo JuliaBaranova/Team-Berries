@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Wildberries</title>
+    <link rel="icon" href="./img/WB.jpg" type="img/png">
 </head>
 
 <body>
@@ -120,12 +121,24 @@
         </bu<tton>
     </div>
     <span class="bestseller">Хиты продаж</span>
-    <script src="./index.js"></script>
+    <ul class="products-item">
+    </ul>
+    <template id="template">
+        <li class="products-item__element">
+            <img class="products-item__img">
+            <span class="products-item__price"></span>
+            <span class="products-item__name"></span>
+            <button class="products-item__btn"></button>
+        </li>
+    </template>
+
+    <script type="module" src="./index.js"></script>
 
     <!-- Needed for carousel -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
