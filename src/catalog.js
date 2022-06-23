@@ -9,4 +9,3 @@ export const getCatalog = async function fetchCatalogJSON() {
         renderCatalog(catalog);
     }
 }
-
