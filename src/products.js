@@ -1,4 +1,5 @@
 import { getProducts, putProducts } from "./localstorage";
+import { renderCart } from "./cart";
 const list = document.querySelector('ul')
 const search = document.querySelector('.header__input')
 
@@ -34,7 +35,6 @@ export function renderCatalog(catalog) {
         } else {
             itemBtn.textContent = 'Из корзины';
         }
-
     })
 }
 
@@ -52,5 +52,6 @@ search.addEventListener('input', () => {
         }
     })
     renderCatalog()
+
 })
 

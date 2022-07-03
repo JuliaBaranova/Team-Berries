@@ -1,5 +1,6 @@
 import { getCatalog } from "./catalog";
-import {renderCatalog} from "./products"
+import { renderCatalog } from "./products";
+import { renderCart } from "./cart.js";
 
 let catalog
 
