@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "concurrently": "^7.2.2",
     "json-server": "^0.17.0",
     "normalize.css": "^8.0.1",
     "parcel": "^2.6.0"
@@ -8,11 +9,10 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "parcel ./src/index.html",
-    "start:json" : "json-server --watch db.json",
-    "start_full_app" : "concurrently \"npm start\" \"npm run start:json\"",
+    "start:json": "json-server --watch db.json",
+    "start_full_app": "concurrently \"npm start\" \"npm run start:json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
