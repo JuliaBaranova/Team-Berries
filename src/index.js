@@ -1,17 +1,12 @@
-import { getCatalog } from "./catalog";
+import {fetchCatalogJSON} from "./catalog";
 import { renderCatalog } from "./products";
 import { renderCart } from "./cart.js";
 
-let catalog
-
-if (!catalog) {
-    getCatalog();
+async function init(){
+const catalog = await fetchCatalogJSON()
+renderCatalog(catalog)
 }
 
-
-renderCatalog(catalog);
-// const KEY_PRODUCTS = document.getElementById('products')
-// // const KEY_HEADER = document.getElementById('header')
-// // const KEY_SHOPPING = document.getElementById('shopping')
+init()
 
 
